@@ -1,0 +1,112 @@
+.form-container{
+    width: 30rem;
+    background-color: white;
+    position: relative;
+    top: 8%;
+    left: 5%;
+    padding: 20px 3px;
+    border: 1px solid black;
+    box-shadow: 0px 1px 19px 0px rgba(0,0,0,0.79);
+    border-radius: 10px;
+}
+
+.trip-options{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.trip-options button{
+    margin: 0 11px;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 500;
+    border: 1px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.forward-btn,
+.prev-btn,
+.reset-btn{
+    border: none;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.forward-btn:hover,
+.prev-btn:hover,
+.reset-btn:hover{
+    background-color: rgba(230, 230, 230, 0.336);
+}
+
+.forward-btn{
+    color: blue;
+}
+
+.form-details-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.form-details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}
+
+.form-input{
+    position: relative;
+}
+
+.form-input label{
+    position: absolute;
+    top: -6px;
+    left: 15px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #6c6c6c;
+    background-color: white;
+}
+
+.form-input input,
+.form-input select{
+    width: 100%;
+    height: 55px;
+    padding: 5px;
+    font-size: 13px;
+    border: 2px solid gray;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 850px) {
+    .form-container{
+        width: 75%;
+        margin: auto;
+        top: 15%;
+        left: 0;
+    }
+
+    .form-details-container{
+        height: 90%;
+        justify-content: space-around;
+        margin-top: 0;
+        padding: 15px 0;
+    }
+}
