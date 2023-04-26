@@ -3,6 +3,7 @@
     border: 1px solid grey;
     border-radius: 5px;
     min-width: 100px;
+    margin-right: 10px;
 }
 
 .select-content{
