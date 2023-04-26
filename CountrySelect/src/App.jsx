@@ -20,8 +20,10 @@ function App() {
         if (cntry) {
             setCountry(item[0]);
             setState(stateOptions[item[0]]);
+            setError("");
         } else {
             setState(item[0]);
+            setError("");
         }
     }
 
@@ -40,7 +42,7 @@ function App() {
     }
 
     return (
-        <>
+        <div className="App">
             {!submitted && <div style={{ display: "flex", gap: "15px" }}>
                 <SelectC
                     options={countryOptions}
@@ -62,7 +64,7 @@ function App() {
                     <span><b>State: </b> { state}</span>
                 </div>
             }
-        </>
+        </div>
     );
 }
 
