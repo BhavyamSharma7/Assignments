@@ -1,0 +1,36 @@
+.select-cont{
+    position: relative;
+    border: 1px solid grey;
+    border-radius: 5px;
+    min-width: 100px;
+}
+
+.select-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 7px;
+    font-size: 14px;
+}
+
+.dropdown{
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    margin: 0;
+    padding: 3px 0 0 0;
+    list-style: none;
+    border: 1px solid grey;
+}
+
+.dropdown li{
+    margin: 0;
+    padding: 3px 20px;
+    font-size: 13px;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+
+.dropdown li:hover{
+    background-color: #dededebd;
+}

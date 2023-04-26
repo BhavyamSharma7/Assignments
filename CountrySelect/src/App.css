@@ -1,0 +1,11 @@
+.result span{
+    font-size: 25px;
+}
+
+button{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 7px 20px;
+    cursor: pointer;
+}
